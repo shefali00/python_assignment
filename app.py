@@ -5,7 +5,7 @@ from functools import wraps
 import json
 
 app = Flask(__name__)
-GEMINI_API_KEY = os.getenv("AIzaSyBaivqeY7fTXIK2FZqY5BA4Oi8qBDgIqb8")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Error handling if API key is not set
 if GEMINI_API_KEY is None:
