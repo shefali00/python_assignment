@@ -1,4 +1,3 @@
-google.generativeai
-os
+Flask
+google-generativeai
 functools
-json
